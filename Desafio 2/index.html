@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>DevClub - desafio 2</title>
+</head>
+<body>
+    
+    <img  class="logo" src="./imagem/logo.gif" alt="imagem-logo">
+  <main>
+
+
+  <label class="moeda-origem">
+    <span><strong>Moeda de origem:</strong></span>
+    <select>
+      <option value="real">R$ Real</option>
+    </select>
+  </label>
+
+
+  <label class="moeda-destino">
+    <span><strong>Moeda para converter:</strong></span>
+    <select id="moeda-destino">
+      <option value="dolar">US$ Dólar</option>
+      <option value="euro">€ Euro</option>
+    </select>
+  </label>
+
+  <section>
+    <label>
+      <span><strong>VALOR:</strong></span>
+      <input type="text" name="valor" class="input-currency" placeholder="VALOR A SER CONVERTIDO">
+      <input type="button" value="converter" id="converter" onclick="clicar()">
+    </label>
+  </section>
+
+  <div class="currency-box">
+    <img src="./imagem/logo-brasil.png" alt="logo-brasil">
+     <p class="currency">Real</p>  
+    <p class="currency-value-to-currency">R$ 0,00</p>
+  </div>
+
+  <img src="imagem/seta.png" alt="seta">
+
+  <div class="currency-box">
+    <img src="./imagem/logo-eua.png" alt="logo-eua">
+    <p class="currency">Dólar</p>
+    <p class="currency-value">US$ 0.00</p>
+  </div>
+
+</main>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>  
