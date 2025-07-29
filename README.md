@@ -1,0 +1,4 @@
+- Aki podemos observar que fizemos um conversor de moedas
+- Aonde ultilizamos as principais ferramentas HTML , CSS , JAVASCRIPT
+- De acordo com a escolha do tipo de moeda do usuário
+- Ele terá o retorno do valor da moeda escolhida!
